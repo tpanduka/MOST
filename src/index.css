@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+body.high-contrast-mode {
+  filter: invert(100%) hue-rotate(180deg) contrast(150%);
+  background-color: #fff;
+}
+
+body.high-contrast-mode img,
+body.high-contrast-mode video,
+body.high-contrast-mode iframe,
+body.high-contrast-mode .lucide {
+  filter: invert(100%) hue-rotate(180deg);
+}
